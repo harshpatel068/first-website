@@ -13,7 +13,7 @@ const Hero = (props) => (
           How you Doing ?
         </SectionTitle>
         <SectionText>
-        This is Harsh Patel and hereby im showcasing my projects and personal achievements in the form of this website.
+        This is <span style={{color: 'white'}}><b><b>Harsh Patel</b></b></span> and hereby I'm showcasing my projects and personal achievements in the form of this website.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>

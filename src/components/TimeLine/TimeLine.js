@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I'm an IT graduate student (7.5/10 CGPA) from Charotar University of Science and Technology, Changa, India with proven research and communication skills. Interned at BISAG where I worked on the web application for managing waste in the city. 
+      I'm an IT graduate student (7.5/10 CGPA) from <a href='https://www.charusat.ac.in/' style={{color: 'white' }}>Charotar University of Science and Technology (CHARUSAT)</a>, Changa, India with proven research and communication skills. Interned at <a href='https://bisag-n.in/' style={{color: 'white' }}>Bhaskaracharya Institute for Space Applications and Geoinformatics (BISAG)</a> where I worked on the web application for managing waste in the city as an final year project. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

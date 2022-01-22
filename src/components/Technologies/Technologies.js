@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've learned many of the Tools and Technologies in my colleging life.<br /><br /> I have learned different programming languages like C, C++, java, pyhton etc. Also, I have learned Html, Css, Javascript, php etc which are used as an front-end development. For the database management I learned MySql.
+      I've learned many of the Tools and Technologies in my colleging life.<br /><br /> I have learned different programming languages like C, C++, java, pyhton etc. Also, I have learned Html, Css, Javascript, php etc which are used as an front-end development. For database management I have learned MySql.
     </SectionText>
     <List>
       <ListItem>
