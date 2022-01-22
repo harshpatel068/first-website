@@ -4,7 +4,7 @@ export const projects = [
     description: "Using simple C language code and Base64 encoding standards I tryed to build a project that can store our keystokes in a text file in an encoded from on the given location which we can extract from the device for the future use.",
       image: '/images/key.jpg',
       tags: ['C', 'Base64 encoding'],
-    source: 'https://google.com',
+    source: 'https://drive.google.com/drive/folders/1nP2JJCyQGTSbKIrM3cBaAm9zKhuMOVwZ?usp=sharing',
     id: 0,
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     description:"While in the Final year me and my friends worked on a project for building a web application for managing waste in the city. This app was build using Html, css, php and javascript.",
     image: '/images/ahe.jpg',
     tags: ['Html', 'php', 'MySql', 'JavaScript'],
-    source: 'https://google.com',
+    source: 'https://drive.google.com/drive/folders/1bXs5GUxagj3M_0uRZNy_4qZDT1R9Yv62?usp=sharing',
     id: 1,
   }
 ];
