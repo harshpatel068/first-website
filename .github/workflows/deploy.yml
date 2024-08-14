@@ -8,11 +8,12 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '16'
@@ -21,10 +22,10 @@ jobs:
         run: npm install
 
       - name: Build Next.js project
-        run: npm run build
-
-      - name: Export static files
-        run: npm run export
+        run: |
+          chmod +x ./node_modules/.bin/next
+          ./node_modules/.bin/next build
+          ./node_modules/.bin/next export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
